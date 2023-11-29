@@ -14,6 +14,14 @@ public class Persona {
 		this.edad = edad;
 	}
 	
+	
+	
+	public void datosPersona() {
+		System.out.println("Persona [nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad + "]");
+	}
+
+
+
 	public void cumpleaños() {
 		edad ++;
 		System.out.println("Ahora tienes " + edad + " años!");
